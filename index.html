@@ -1,0 +1,128 @@
+<html>
+
+<head>
+	<title>Práctica Javascript</title>
+	<script src="index.js"></script>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Lato;
+		}
+
+		h1,
+		h2 {
+			padding: 15px;
+		}
+
+		.color-list {
+			width: 90vw;
+			background-color: silver;
+			margin: 50px auto 0;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, .3)
+		}
+
+		.color-item {
+			width: 100%;
+			list-style: none;
+			padding: 10px 20px;
+			background-color: white;
+			border-left: solid black 2px;
+			border-right: solid black 2px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.color-item--odd {
+			background-color: lightblue;
+		}
+
+		.color-item--last {
+			background-color: lightblue;
+			border-bottom: solid black 2px;
+		}
+
+		.color-list-title {
+			width: 100%;
+			list-style: none;
+			border: solid 2px black;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			background-color: dodgerblue;
+			padding: 10px;
+		}
+
+		.color-name {
+			min-width: 100px;
+		}
+
+		.color-show {
+			border: 1px solid grey;
+			padding: 5px;
+		}
+
+		.color-set {
+			padding: 5px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Práctica Javascript 1</h1>
+	<ul class="color-list">
+		<li class="color-list-title">Lista de botones para cambio color</li>
+		<li class="color-item">
+			<div class="color-name">Color: white</div>
+			<div class="color-show">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item color-item--odd">
+			<div class="color-name">Color: red</div>
+			<div class="color-show" style="background-color: red;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item">
+			<div class="color-name">Color: orange</div>
+			<div class="color-show" style="background-color: orange;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item color-item--odd"">
+			<div class="color-name">Color: yellow</div>
+			<div class="color-show" style="background-color: yellow;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item">
+			<div class="color-name">Color: orchid</div>
+			<div class="color-show" style="background-color: orchid;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item color-item--odd"">
+			<div class="color-name">Color: pink</div>
+			<div class="color-show" style="background-color: pink;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item"">
+			<div class="color-name">Color: green</div>
+			<div class="color-show" style="background-color: green;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+		<li class="color-item color-item--odd color-item--last">
+			<div class="color-name">Color: silver</div>
+			<div class="color-show" style="background-color: silver;">Muestra</div>
+			<button class="color-set">Next item color</button>
+			<button class="color-set">Page color</button>
+		</li>
+	</ul>
+</body>
+
+</html>
