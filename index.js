@@ -28,35 +28,35 @@
 
 const colorList = [
   {
-    colorName: "white",
-    hex: "#ffffff"
+    colorName: 'white',
+    hex: '#ffffff'
   },
   {
-    colorName: "red",
-    hex: "#ff0000"
+    colorName: 'red',
+    hex: '#ff0000'
   },
   {
-    colorName: "orange",
-    hex: "#ffa500"
+    colorName: 'orange',
+    hex: '#ffa500'
   },
   {
-    colorName: "yellow",
-    hex: "#ffff00"
+    colorName: 'yellow',
+    hex: '#ffff00'
   },
   {
-    colorName: "orchid",
-    hex: "#da70d6"
+    colorName: 'orchid',
+    hex: '#da70d6'
   },
   {
-    colorName: "pink",
-    hex: "#ffc0cb"
+    colorName: 'pink',
+    hex: '#ffc0cb'
   },
   {
-    colorName: "green",
-    hex: "#008000"
+    colorName: 'green',
+    hex: '#008000'
   },
   {
-    colorName: "silver",
-    hex: "#c0c0c0"
+    colorName: 'silver',
+    hex: '#c0c0c0'
   }
 ];
